@@ -1,4 +1,14 @@
-import { Mail, Github, Linkedin, Code2, Brain, Users, Clock, ExternalLink, ArrowRight } from "lucide-react";
+import {
+  Mail,
+  Github,
+  Linkedin,
+  Code2,
+  Brain,
+  Users,
+  Clock,
+  ExternalLink,
+  ArrowRight,
+} from "lucide-react";
 
 export default function Index() {
   return (
@@ -8,16 +18,28 @@ export default function Index() {
         <div className="section-container py-4 flex items-center justify-between">
           <div className="text-2xl font-bold text-primary">PIYUSH</div>
           <div className="hidden md:flex gap-8 text-sm font-medium">
-            <a href="#about" className="text-foreground/60 hover:text-primary transition-colors">
+            <a
+              href="#about"
+              className="text-foreground/60 hover:text-primary transition-colors"
+            >
               About
             </a>
-            <a href="#skills" className="text-foreground/60 hover:text-primary transition-colors">
+            <a
+              href="#skills"
+              className="text-foreground/60 hover:text-primary transition-colors"
+            >
               Skills
             </a>
-            <a href="#projects" className="text-foreground/60 hover:text-primary transition-colors">
+            <a
+              href="#projects"
+              className="text-foreground/60 hover:text-primary transition-colors"
+            >
               Projects
             </a>
-            <a href="#contact" className="text-foreground/60 hover:text-primary transition-colors">
+            <a
+              href="#contact"
+              className="text-foreground/60 hover:text-primary transition-colors"
+            >
               Contact
             </a>
           </div>
@@ -29,7 +51,10 @@ export default function Index() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div>
-              <h1 className="text-5xl md:text-6xl font-bold leading-tight text-foreground mb-4" style={{ fontFamily: '"Itim", sans-serif' }}>
+              <h1
+                className="text-5xl md:text-6xl font-bold leading-tight text-foreground mb-4"
+                style={{ fontFamily: '"Itim", sans-serif' }}
+              >
                 Hi, I'm PIYUSH
               </h1>
               <p className="text-2xl md:text-3xl text-primary font-semibold mb-2">
@@ -40,7 +65,9 @@ export default function Index() {
               </p>
             </div>
             <p className="text-foreground/70 text-lg leading-relaxed max-w-lg">
-              I'm a first-year CS student with a passion for building elegant solutions to complex problems. Currently learning the fundamentals of computer science while exploring full-stack development.
+              I'm a first-year CS student with a passion for building elegant
+              solutions to complex problems. Currently learning the fundamentals
+              of computer science while exploring full-stack development.
             </p>
             <div className="flex gap-4 pt-4">
               <a
@@ -73,16 +100,28 @@ export default function Index() {
       {/* About Section */}
       <section id="about" className="py-20 md:py-28 bg-secondary/30">
         <div className="section-container animate-slide-up">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">About Me</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
+            About Me
+          </h2>
           <div className="max-w-3xl mx-auto border border-border rounded-lg p-6 italic font-semibold text-center opacity-91">
             <p className="text-foreground/80 text-xl leading-relaxed mb-6">
-              I'm a dedicated first-year Computer Science student with a genuine curiosity about how technology works. My journey in computer science has just begun, and I'm excited to explore the vast possibilities this field offers.
+              I'm a dedicated first-year Computer Science student with a genuine
+              curiosity about how technology works. My journey in computer
+              science has just begun, and I'm excited to explore the vast
+              possibilities this field offers.
             </p>
             <p className="text-foreground/80 text-lg leading-relaxed mb-6">
-              I believe in the power of continuous learning and growth. Every project I work on teaches me something new, and I'm always eager to tackle challenges that push me outside my comfort zone. I'm particularly interested in full-stack development and love the process of taking an idea from concept to working application.
+              I believe in the power of continuous learning and growth. Every
+              project I work on teaches me something new, and I'm always eager
+              to tackle challenges that push me outside my comfort zone. I'm
+              particularly interested in full-stack development and love the
+              process of taking an idea from concept to working application.
             </p>
             <p className="text-foreground/80 text-xl leading-relaxed">
-              Beyond coding, I value collaboration and clear communication. I enjoy working in teams, sharing knowledge, and learning from others. My goal is to become a well-rounded software developer who can build meaningful applications that make a difference.
+              Beyond coding, I value collaboration and clear communication. I
+              enjoy working in teams, sharing knowledge, and learning from
+              others. My goal is to become a well-rounded software developer who
+              can build meaningful applications that make a difference.
             </p>
           </div>
         </div>
@@ -91,7 +130,9 @@ export default function Index() {
       {/* Education Section */}
       <section className="py-28">
         <div className="section-container">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Education</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
+            Education
+          </h2>
           <div className="max-w-2xl mx-auto">
             <div className="bg-card border border-border rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow">
               <div className="flex items-start gap-4">
@@ -105,9 +146,13 @@ export default function Index() {
                   <p className="text-primary font-semibold mb-2">
                     NEWTON SCHOOL OF TECHNOLOGY
                   </p>
-                  <p className="text-foreground/60 mb-3">2024 – 2028 (1st Year)</p>
+                  <p className="text-foreground/60 mb-3">
+                    2024 – 2028 (1st Year)
+                  </p>
                   <p className="text-foreground/70 leading-relaxed font-semibold italic underline">
-                    Currently pursuing a comprehensive Computer Science degree with focus on core fundamentals, algorithms, data structures, and web development.
+                    Currently pursuing a comprehensive Computer Science degree
+                    with focus on core fundamentals, algorithms, data
+                    structures, and web development.
                   </p>
                 </div>
               </div>
@@ -119,7 +164,9 @@ export default function Index() {
       {/* Skills Section */}
       <section id="skills" className="py-28 bg-secondary/30">
         <div className="section-container">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Skills</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
+            Skills
+          </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {/* Technical Skills */}
             <div className="bg-card border border-border rounded-xl p-8 shadow-sm">
@@ -128,14 +175,16 @@ export default function Index() {
                 <h3 className="text-2xl font-bold">Technical Skills</h3>
               </div>
               <div className="flex flex-wrap gap-3">
-                {["Python", "C", "HTML", "CSS", "JavaScript", "Git", "DSA"].map((skill) => (
-                  <div
-                    key={skill}
-                    className="px-4 py-2 bg-primary/10 text-primary border border-primary/20 rounded-full text-sm font-semibold hover:bg-primary/20 transition-colors"
-                  >
-                    {skill}
-                  </div>
-                ))}
+                {["Python", "C", "HTML", "CSS", "JavaScript", "Git", "DSA"].map(
+                  (skill) => (
+                    <div
+                      key={skill}
+                      className="px-4 py-2 bg-primary/10 text-primary border border-primary/20 rounded-full text-sm font-semibold hover:bg-primary/20 transition-colors"
+                    >
+                      {skill}
+                    </div>
+                  ),
+                )}
               </div>
             </div>
 
@@ -170,17 +219,24 @@ export default function Index() {
       {/* Projects Section */}
       <section id="projects" className="py-20 md:py-28">
         <div className="section-container">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Projects</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
+            Projects
+          </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Project 1 */}
             <div className="bg-card border border-border rounded-xl overflow-hidden shadow-sm card-hover group">
               <div className="h-40 bg-gradient-to-br from-primary/20 to-primary/5 group-hover:from-primary/30 group-hover:to-primary/10 transition-colors flex items-center justify-center">
-                <Code2 className="text-primary/40 group-hover:text-primary/60 transition-colors" size={60} />
+                <Code2
+                  className="text-primary/40 group-hover:text-primary/60 transition-colors"
+                  size={60}
+                />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">Todo Application</h3>
                 <p className="text-foreground/70 mb-4">
-                  A full-featured todo app with add, delete, and complete functionality. Built with React and localStorage for data persistence.
+                  A full-featured todo app with add, delete, and complete
+                  functionality. Built with React and localStorage for data
+                  persistence.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="px-3 py-1 bg-secondary text-foreground/70 rounded-full text-xs font-medium">
@@ -205,12 +261,17 @@ export default function Index() {
             {/* Project 2 */}
             <div className="bg-card border border-border rounded-xl overflow-hidden shadow-sm card-hover group">
               <div className="h-40 bg-gradient-to-br from-primary/20 to-primary/5 group-hover:from-primary/30 group-hover:to-primary/10 transition-colors flex items-center justify-center">
-                <Code2 className="text-primary/40 group-hover:text-primary/60 transition-colors" size={60} />
+                <Code2
+                  className="text-primary/40 group-hover:text-primary/60 transition-colors"
+                  size={60}
+                />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">Calculator App</h3>
                 <p className="text-foreground/70 mb-4">
-                  A responsive calculator with basic arithmetic operations. Clean UI with real-time display of calculations and error handling.
+                  A responsive calculator with basic arithmetic operations.
+                  Clean UI with real-time display of calculations and error
+                  handling.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="px-3 py-1 bg-secondary text-foreground/70 rounded-full text-xs font-medium">
@@ -235,12 +296,16 @@ export default function Index() {
             {/* Project 3 */}
             <div className="bg-card border border-border rounded-xl overflow-hidden shadow-sm card-hover group">
               <div className="h-40 bg-gradient-to-br from-primary/20 to-primary/5 group-hover:from-primary/30 group-hover:to-primary/10 transition-colors flex items-center justify-center">
-                <Code2 className="text-primary/40 group-hover:text-primary/60 transition-colors" size={60} />
+                <Code2
+                  className="text-primary/40 group-hover:text-primary/60 transition-colors"
+                  size={60}
+                />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">Portfolio Website</h3>
                 <p className="text-foreground/70 mb-4">
-                  Personal portfolio to showcase projects and skills. Responsive design with smooth animations and modern UI components.
+                  Personal portfolio to showcase projects and skills. Responsive
+                  design with smooth animations and modern UI components.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="px-3 py-1 bg-secondary text-foreground/70 rounded-full text-xs font-medium">
@@ -265,12 +330,16 @@ export default function Index() {
             {/* Project 4 */}
             <div className="bg-card border border-border rounded-xl overflow-hidden shadow-sm card-hover group">
               <div className="h-40 bg-gradient-to-br from-primary/20 to-primary/5 group-hover:from-primary/30 group-hover:to-primary/10 transition-colors flex items-center justify-center">
-                <Code2 className="text-primary/40 group-hover:text-primary/60 transition-colors" size={60} />
+                <Code2
+                  className="text-primary/40 group-hover:text-primary/60 transition-colors"
+                  size={60}
+                />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">Weather Dashboard</h3>
                 <p className="text-foreground/70 mb-4">
-                  Real-time weather information app using a public API. Features location search, current weather, and 5-day forecast display.
+                  Real-time weather information app using a public API. Features
+                  location search, current weather, and 5-day forecast display.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="px-3 py-1 bg-secondary text-foreground/70 rounded-full text-xs font-medium">
@@ -298,9 +367,12 @@ export default function Index() {
       {/* Contact Section */}
       <section id="contact" className="py-20 md:py-28 bg-secondary/30">
         <div className="section-container">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">Let's Connect</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
+            Let's Connect
+          </h2>
           <p className="text-center text-foreground/70 text-lg mb-12 max-w-2xl mx-auto">
-            I'm always open to new opportunities, collaborations, and conversations. Feel free to reach out!
+            I'm always open to new opportunities, collaborations, and
+            conversations. Feel free to reach out!
           </p>
 
           <div className="max-w-2xl mx-auto">
@@ -317,7 +389,9 @@ export default function Index() {
                   </div>
                   <div>
                     <h3 className="font-bold mb-1">Email</h3>
-                    <p className="text-foreground/60 text-sm">piyushanand819@gmail.com</p>
+                    <p className="text-foreground/60 text-sm">
+                      piyushanand819@gmail.com
+                    </p>
                   </div>
                 </div>
               </a>
@@ -353,7 +427,9 @@ export default function Index() {
                   </div>
                   <div>
                     <h3 className="font-bold mb-1">GitHub</h3>
-                    <p className="text-foreground/60 text-sm">https://github.com/piyushanand1432/desktop-tutorial</p>
+                    <p className="text-foreground/60 text-sm">
+                      https://github.com/piyushanand1432/desktop-tutorial
+                    </p>
                   </div>
                 </div>
               </a>
@@ -371,7 +447,9 @@ export default function Index() {
                   </div>
                   <div>
                     <h3 className="font-bold mb-1">WhatsApp</h3>
-                    <p className="text-foreground/60 text-sm">+91 76199 76836</p>
+                    <p className="text-foreground/60 text-sm">
+                      +91 76199 76836
+                    </p>
                   </div>
                 </div>
               </a>
@@ -404,22 +482,34 @@ export default function Index() {
               <h4 className="font-semibold mb-4">Quick Links</h4>
               <ul className="space-y-2 text-sm text-foreground/60">
                 <li>
-                  <a href="#about" className="hover:text-primary transition-colors">
+                  <a
+                    href="#about"
+                    className="hover:text-primary transition-colors"
+                  >
                     About
                   </a>
                 </li>
                 <li>
-                  <a href="#skills" className="hover:text-primary transition-colors">
+                  <a
+                    href="#skills"
+                    className="hover:text-primary transition-colors"
+                  >
                     Skills
                   </a>
                 </li>
                 <li>
-                  <a href="#projects" className="hover:text-primary transition-colors">
+                  <a
+                    href="#projects"
+                    className="hover:text-primary transition-colors"
+                  >
                     Projects
                   </a>
                 </li>
                 <li>
-                  <a href="#contact" className="hover:text-primary transition-colors">
+                  <a
+                    href="#contact"
+                    className="hover:text-primary transition-colors"
+                  >
                     Contact
                   </a>
                 </li>
@@ -482,7 +572,10 @@ export default function Index() {
           </div>
 
           <div className="border-t border-border pt-8 text-center text-foreground/60 text-sm">
-            <p>&copy; 2024 PIYUSH. All rights reserved. Built with React & Tailwind CSS.</p>
+            <p>
+              &copy; 2024 PIYUSH. All rights reserved. Built with React &
+              Tailwind CSS.
+            </p>
           </div>
         </div>
       </footer>
