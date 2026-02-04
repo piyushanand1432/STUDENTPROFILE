@@ -74,14 +74,14 @@ export default function Index() {
       <section id="about" className="py-20 md:py-28 bg-secondary/30">
         <div className="section-container animate-slide-up">
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">About Me</h2>
-          <div className="max-w-3xl mx-auto">
-            <p className="text-foreground/80 text-lg leading-relaxed mb-6">
+          <div className="max-w-3xl mx-auto border border-border rounded-lg p-6 italic font-semibold text-center opacity-91">
+            <p className="text-foreground/80 text-xl leading-relaxed mb-6">
               I'm a dedicated first-year Computer Science student with a genuine curiosity about how technology works. My journey in computer science has just begun, and I'm excited to explore the vast possibilities this field offers.
             </p>
             <p className="text-foreground/80 text-lg leading-relaxed mb-6">
               I believe in the power of continuous learning and growth. Every project I work on teaches me something new, and I'm always eager to tackle challenges that push me outside my comfort zone. I'm particularly interested in full-stack development and love the process of taking an idea from concept to working application.
             </p>
-            <p className="text-foreground/80 text-lg leading-relaxed">
+            <p className="text-foreground/80 text-xl leading-relaxed">
               Beyond coding, I value collaboration and clear communication. I enjoy working in teams, sharing knowledge, and learning from others. My goal is to become a well-rounded software developer who can build meaningful applications that make a difference.
             </p>
           </div>
@@ -89,7 +89,7 @@ export default function Index() {
       </section>
 
       {/* Education Section */}
-      <section className="py-20 md:py-28">
+      <section className="py-28">
         <div className="section-container">
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Education</h2>
           <div className="max-w-2xl mx-auto">
@@ -103,10 +103,10 @@ export default function Index() {
                     B.Tech in Computer Science
                   </h3>
                   <p className="text-primary font-semibold mb-2">
-                    University Name / College Name
+                    <p>NEWTON SCHOOL OF TECHNOLOGY</p>
                   </p>
                   <p className="text-foreground/60 mb-3">2024 – 2028 (1st Year)</p>
-                  <p className="text-foreground/70 leading-relaxed">
+                  <p className="text-foreground/70 leading-relaxed font-semibold italic underline">
                     Currently pursuing a comprehensive Computer Science degree with focus on core fundamentals, algorithms, data structures, and web development.
                   </p>
                 </div>
@@ -117,7 +117,7 @@ export default function Index() {
       </section>
 
       {/* Skills Section */}
-      <section id="skills" className="py-20 md:py-28 bg-secondary/30">
+      <section id="skills" className="py-28 bg-secondary/30">
         <div className="section-container">
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Skills</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
