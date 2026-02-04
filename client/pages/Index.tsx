@@ -103,7 +103,7 @@ export default function Index() {
                     B.Tech in Computer Science
                   </h3>
                   <p className="text-primary font-semibold mb-2">
-                    <p>NEWTON SCHOOL OF TECHNOLOGY</p>
+                    NEWTON SCHOOL OF TECHNOLOGY
                   </p>
                   <p className="text-foreground/60 mb-3">2024 – 2028 (1st Year)</p>
                   <p className="text-foreground/70 leading-relaxed font-semibold italic underline">
