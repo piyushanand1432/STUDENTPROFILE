@@ -482,7 +482,7 @@ export default function Index() {
           </div>
 
           <div className="border-t border-border pt-8 text-center text-foreground/60 text-sm">
-            <p>&copy; 2024 Alex. All rights reserved. Built with React & Tailwind CSS.</p>
+            <p>&copy; 2024 PIYUSH. All rights reserved. Built with React & Tailwind CSS.</p>
           </div>
         </div>
       </footer>
