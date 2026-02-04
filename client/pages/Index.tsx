@@ -6,7 +6,7 @@ export default function Index() {
       {/* Navigation */}
       <nav className="sticky top-0 z-50 border-b border-border/40 bg-background/95 backdrop-blur-sm">
         <div className="section-container py-4 flex items-center justify-between">
-          <div className="text-2xl font-bold text-primary">Alex</div>
+          <div className="text-2xl font-bold text-primary">PIYUSH</div>
           <div className="hidden md:flex gap-8 text-sm font-medium">
             <a href="#about" className="text-foreground/60 hover:text-primary transition-colors">
               About
@@ -29,8 +29,8 @@ export default function Index() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div>
-              <h1 className="text-5xl md:text-6xl font-bold leading-tight text-foreground mb-4">
-                Hi, I'm Alex
+              <h1 className="text-5xl md:text-6xl font-bold leading-tight text-foreground mb-4" style={{ fontFamily: '"Itim", sans-serif' }}>
+                Hi, I'm PIYUSH
               </h1>
               <p className="text-2xl md:text-3xl text-primary font-semibold mb-2">
                 First-Year Computer Science Student
@@ -307,7 +307,8 @@ export default function Index() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               {/* Email */}
               <a
-                href="mailto:student@email.com"
+                href="mailto:piyushanand819@gmail.com"
+                target="_blank"
                 className="group bg-card border border-border rounded-xl p-6 hover:border-primary/50 hover:shadow-md transition-all"
               >
                 <div className="flex items-start gap-4">
@@ -316,7 +317,7 @@ export default function Index() {
                   </div>
                   <div>
                     <h3 className="font-bold mb-1">Email</h3>
-                    <p className="text-foreground/60 text-sm">student@email.com</p>
+                    <p className="text-foreground/60 text-sm">piyushanand819@gmail.com</p>
                   </div>
                 </div>
               </a>
@@ -341,7 +342,7 @@ export default function Index() {
 
               {/* GitHub */}
               <a
-                href="https://github.com"
+                href="https://github.com/piyushanand1432/desktop-tutorial"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group bg-card border border-border rounded-xl p-6 hover:border-primary/50 hover:shadow-md transition-all"
@@ -352,14 +353,14 @@ export default function Index() {
                   </div>
                   <div>
                     <h3 className="font-bold mb-1">GitHub</h3>
-                    <p className="text-foreground/60 text-sm">github.com/yourprofile</p>
+                    <p className="text-foreground/60 text-sm">https://github.com/piyushanand1432/desktop-tutorial</p>
                   </div>
                 </div>
               </a>
 
               {/* Message */}
               <a
-                href="https://wa.me/9876543210"
+                href="https://wa.me/917619976836"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group bg-card border border-border rounded-xl p-6 hover:border-primary/50 hover:shadow-md transition-all"
@@ -370,7 +371,7 @@ export default function Index() {
                   </div>
                   <div>
                     <h3 className="font-bold mb-1">WhatsApp</h3>
-                    <p className="text-foreground/60 text-sm">+91 98765 43210</p>
+                    <p className="text-foreground/60 text-sm">+91 76199 76836</p>
                   </div>
                 </div>
               </a>
@@ -378,7 +379,7 @@ export default function Index() {
 
             <div className="text-center">
               <a
-                href="mailto:student@email.com"
+                href="mailto:piyushanand819@gmail.com"
                 className="smooth-button inline-flex px-8 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:shadow-lg"
               >
                 Send me an Email
@@ -393,7 +394,7 @@ export default function Index() {
         <div className="section-container py-12">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             <div>
-              <div className="text-2xl font-bold text-primary mb-2">Alex</div>
+              <div className="text-2xl font-bold text-primary mb-2">PIYUSH</div>
               <p className="text-foreground/60 text-sm">
                 First-Year CS Student | Aspiring Software Developer
               </p>
