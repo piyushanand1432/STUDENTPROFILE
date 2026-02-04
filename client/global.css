@@ -103,8 +103,12 @@
     @apply border-border;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
   }
 
   :where(p, span, li, h1, h2, h3, h4, h5, h6, a, button, label, td, th) {
@@ -116,5 +120,35 @@
   code {
     overflow-x: auto;
     white-space: pre;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl font-bold tracking-tight;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl font-bold tracking-tight;
+  }
+
+  h3 {
+    @apply text-xl md:text-2xl font-semibold;
+  }
+
+  a {
+    @apply transition-colors duration-200;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply mx-auto max-w-5xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .smooth-button {
+    @apply transition-all duration-200 ease-out hover:scale-105 active:scale-95;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-lg hover:scale-105;
   }
 }
